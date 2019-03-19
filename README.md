@@ -9,6 +9,7 @@ Real time face and eye detection using your computer's webcam.
 
 # **Some details**
 **Why do we use Cascade Classifiers?**
+
 Cascade classifiers help us to reduce the computation time as well as to save computation power.
 Cascade refers to a series of waterfalls. Similarly, in Computer Science, they are used to solve image recognition problems.
 For example, a very strong classifier that can detect faces is broken down into several hundred or thousand weak classifiers.
