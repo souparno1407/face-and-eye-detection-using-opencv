@@ -17,3 +17,13 @@ Each classifier can recognize a sub-region of an image and verify whether they a
 If at any point, any classifier in the chain feels that it is not the target object, then it immeditaely rejects the region.
 In this way, regions which does not contain any target object can be effecctively rejected and resources and time can be saved.
 
+**Why do we use Multi-scaling?**
+
+Multi-scaling means that the algorithm looks at different sub-regions of the image from various scales.
+Multi-scaling is necessary so that the algorithm can successfully detect faces of all sizes.
+
+**Why do we set the value to 0 in video capture??**
+
+The value '0' refers to the primary camera in your laptop/computer. Since in most computers there is only one camera, we set the value to 0. You can change the value if there are multiple cameras in your set up.
+
+# To understand the project better, kindly go through the details of Haar features, Adaptive Boosting (AdaBoost) and Viola-Jones Algorithm.
